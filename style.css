@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.header,nav,main,footer{
+    display:grid;
+    place-content: center;
+}
+.header,footer{
+    position: sticky;
+    background-color:#00796b;
+
+}
+.header {
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* Logo */
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo1 img {
+    height: 40px; /* Adjust as needed */
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Noto Sans Ethiopic', sans-serif; /* Ensure correct font for the script */
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ffcc00; /* Adjust hover effect */
+}
+
+.main{
+    flex-grow: 1;
+}
+#img1{
+    object-fit: cover;
+    margin-right:10px; 
+}
+#img2{
+    float:left;
+    margin-right:10px ;
+    obeject-fit:cover;
+}
+#img5{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    margin:0 auto;
+    color:#00796b;
+}
+h2{
+    color:black;
+}
+button{
+ font-size:15px;
+color:#00796b;
+width:75px;
+margin:0 auto;
+}
+.form-group{
+    margin:0 auto;
+}
+label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.banner{
+    background-color:#00796b;
+    color:white;
+    padding:2em;
+    text-align: center;
+    border-radius: 10px;
+    margin:20px;
+}
+#img3{
+    float:right;
+    marign-left:10px;
+#img4{
+    float:right;
+    width:300px;
+    height:200px;
+}
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 75px;
+    background-color: #0c4b44 ;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c4b44;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #033d35;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-left, .footer-middle, .footer-right {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.footer-left .logo {
+    width: 50px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+@media (max-width: 600px) {
+    .background-image {
+        height: 200px; /* Adjust height for smaller screens */
+    }
+}
